@@ -1,7 +1,0 @@
-  # --- Nucleus parity: client hierarchy / coverage ---
-  - edge: "sources.crm.crm_plus.crm_plus_client_hierarchy_info_bronze >> projects.interactions.dim_client_hierarchy"
-  - edge: "sources.crm.crm_plus.crm_plus_coverage_info_stock_bronze >> projects.interactions.dim_coverage_info"
-  - edge: "projects.interactions.dim_coverage_info >> projects.interactions.dim_client_coverage_list"
-  - edge: "projects.interactions.dim_client_hierarchy >> projects.interactions.dim_client_coverage_list"
-  - edge: "projects.interactions.dim_emp_info >> projects.interactions.dim_client_coverage_list"
-  - edge: "projects.interactions.dim_client_info >> projects.interactions.dim_client_coverage_list"

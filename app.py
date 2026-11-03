@@ -1,1 +1,0 @@
-Add-Content dags\crm_interactions.yaml -Value @("", "  - polaris.alpha.compass.dim_marketing_client", "  - polaris.alpha.telemetry_db.adage_history", "  - polaris.alpha.cia.permissions_client360", "  - polaris.alpha.cia.sm_employees_adage", "  - polaris.alpha.cia.sm_teams_adage")
